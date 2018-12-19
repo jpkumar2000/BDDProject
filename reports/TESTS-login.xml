@@ -1,0 +1,22 @@
+<testsuite errors="0" failures="0" hostname="LAP121-68645" name="login.The user can login into outsystem" skipped="0" tests="1" time="1.667167" timestamp="2018-12-18T19:19:55.291366"><testcase classname="login.The user can login into outsystem" name="The user can enter username and password to login to outsystems" status="passed" time="1.667167"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: The user can enter username and password to login to outsystems
+    Given the user is on the login page ... passed in 0.778s
+    When the user enters the username ... passed in 0.187s
+    And the user enters the password ... passed in 0.116s
+    And clicks on the Log In button ... passed in 0.534s
+    Then request page will be loaded ... passed in 0.052s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Called 4th
+Called 5th
+Called 6th
+Called 7th
+Called 8th
+
+]]>
+</system-out></testcase></testsuite>

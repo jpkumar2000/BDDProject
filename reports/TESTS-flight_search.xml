@@ -1,0 +1,22 @@
+<testsuite errors="0" failures="0" hostname="LAP121-68645" name="flight_search.The user can book available flights" skipped="0" tests="1" time="1.758176" timestamp="2018-12-18T19:19:53.614198"><testcase classname="flight_search.The user can book available flights" name="The user can find a flight from Paris to London" status="passed" time="1.758176"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: The user can find a flight from Paris to London
+    Given the user is on the search page ... passed in 1.100s
+    When the user selects Paris as departure city ... passed in 0.094s
+    And the user select London as a destination city ... passed in 0.072s
+    And clicks on the Find Flights button ... passed in 0.476s
+    Then flights are presented on the search result page ... passed in 0.016s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Called 4th
+Called 5th
+Called 6th
+Called 7th
+Called 8th
+
+]]>
+</system-out></testcase></testsuite>
